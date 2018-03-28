@@ -38,9 +38,6 @@
     return [[PlayingCardDeck alloc] init];
 }
 
-
-
-
 - (IBAction)touchCardButton:(UIButton *)sender
 {
     NSUInteger cardIndex = [self.cardButtons indexOfObject:sender];
