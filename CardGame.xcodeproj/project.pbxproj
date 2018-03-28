@@ -17,6 +17,7 @@
 		1145F7ED205377970008573A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1145F7EC205377970008573A /* Deck.m */; };
 		1145F7F62053967F0008573A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1145F7F52053967F0008573A /* PlayingCard.m */; };
 		1174316E2069900D00AE29EA /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174316D2069900D00AE29EA /* PlayingCardDeck.m */; };
+		117B1F0C206AE314001999F4 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B1F0B206AE314001999F4 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		1145F7F52053967F0008573A /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		1174316C20698FD400AE29EA /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		1174316D2069900D00AE29EA /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		117B1F0A206AE314001999F4 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		117B1F0B206AE314001999F4 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				1145F7E82053635E0008573A /* Card.m */,
 				1145F7EE205377FB0008573A /* Deck.h */,
 				1145F7EC205377970008573A /* Deck.m */,
+				117B1F0A206AE314001999F4 /* CardMatchingGame.h */,
+				117B1F0B206AE314001999F4 /* CardMatchingGame.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117B1F0C206AE314001999F4 /* CardMatchingGame.m in Sources */,
 				1145F7ED205377970008573A /* Deck.m in Sources */,
 				1145F7D7205362F70008573A /* ViewController.m in Sources */,
 				1145F7F62053967F0008573A /* PlayingCard.m in Sources */,

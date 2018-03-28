@@ -20,7 +20,6 @@
 // 1. Creating things like Stirng of format
 // 2. Utility things like return constant
 + (NSArray *) validSuits;
-
 + (NSUInteger) maxRank;
 
 @end
